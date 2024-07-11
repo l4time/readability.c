@@ -43,7 +43,7 @@
 
 1. Extract content and display in console:
    ```
-   ./reader https://www.bbc.com/news/world-middle-east-63851215
+   ./reader https://wccftech.com/apple-vision-pro-yet-to-ship-100000-units-in-us-sales-drop-inbound/
    ```
 
    Output:
@@ -62,6 +62,9 @@
 
    The technological superiority of the [Apple Vision Pro](https://wccftech.com/apple-vision-pro-is-the-ar-headset-from-the-company/) was insufficient for the headset to gain traction in the U.S., with the latest statistics revealing that the device has yet to ship 100,000 units in this market. The disappointing reception of the mixed-reality headset also means that it might not ship even half a million units, but its rapid decline could receive some cushion as Apple has expanded the launch in other countries.
 
+   ## Apple Vision Pro might not ship 500,000 units in 2024, but launch in other regions will offset a steeper decline in demand
+   As reported by IDC, with the statistics spotted by Bloomberg, the Apple Vision Pro is projected to witness a 75 percent drop in shipments in the current quarter. One of the biggest reasons for this decline is the ludicrous pricing of the head-mounted wearable, with the base model starting from a whopping $3,499. However, analyst Ming-Chi Kuo has pointed out that it is not just the eye-watering price that has discouraged customers from making the headset their daily driver. He previously mentioned that customers who pay full price and use it [often return after a few tries](https://wccftech.com/apple-vision-pro-low-cost-version-affordable-price-is-not-only-hurdle/), hinting at the Apple Vision Pro’s limited utility.
+
    ...
 
    Article extracted
@@ -71,7 +74,7 @@
 
 2. Extract content and output as JSON:
    ```
-   ./reader https://www.bbc.com/news/world-middle-east-63851215 -json
+   ./reader https://wccftech.com/apple-vision-pro-yet-to-ship-100000-units-in-us-sales-drop-inbound/ -json
    ```
 
    Output will be in JSON format, containing the title, URL, published time, and content.
