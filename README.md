@@ -1,6 +1,6 @@
 # @readability.c
 
-@readability.c is a simple C implementation inspired by Mozilla's Readability.js, which is used in Firefox's Reader View. This program extracts the main content from web pages, removing clutter and presenting the article in a clean, readable format.
+@readability.c is a simple C implementation inspired by Mozilla's Readability.js, which is used in Firefox's readability View. This program extracts the main content from web pages, removing clutter and presenting the article in a clean, readable format.
 
 ## Features
 
@@ -21,19 +21,19 @@
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/readability-c.git
+   git clone https://github.com/l4time/readability-c.git
    cd readability-c
    ```
 
 2. Compile the program:
    ```
-   gcc reader.c -o reader `xml2-config --cflags --libs` -lcurl
+   gcc readability.c -o readability `xml2-config --cflags --libs` -lcurl
    ```
 
 ## Usage
 
 ```
-./reader <url> [-json]
+./readability <url> [-json]
 ```
 
 - `<url>`: The URL of the web page you want to extract content from
@@ -43,7 +43,7 @@
 
 1. Extract content and display in console:
    ```
-   ./reader https://wccftech.com/apple-vision-pro-yet-to-ship-100000-units-in-us-sales-drop-inbound/
+   ./readability https://wccftech.com/apple-vision-pro-yet-to-ship-100000-units-in-us-sales-drop-inbound/
    ```
 
    Output:
@@ -74,7 +74,7 @@
 
 2. Extract content and output as JSON:
    ```
-   ./reader https://wccftech.com/apple-vision-pro-yet-to-ship-100000-units-in-us-sales-drop-inbound/ -json
+   ./readability https://wccftech.com/apple-vision-pro-yet-to-ship-100000-units-in-us-sales-drop-inbound/ -json
    ```
 
    Output will be in JSON format, containing the title, URL, published time, and content.
